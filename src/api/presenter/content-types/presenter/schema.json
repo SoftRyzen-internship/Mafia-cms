@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presenters",
+  "info": {
+    "singularName": "presenter",
+    "pluralName": "presenters",
+    "displayName": "presenter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
