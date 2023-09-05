@@ -4,7 +4,8 @@
   "info": {
     "singularName": "presenter",
     "pluralName": "presenters",
-    "displayName": "presenter"
+    "displayName": "Presenter",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,16 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 255
     },
     "description": {
       "type": "text",

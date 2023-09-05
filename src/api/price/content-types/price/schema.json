@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prices",
+  "info": {
+    "singularName": "price",
+    "pluralName": "prices",
+    "displayName": "Price",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "rateType": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "amount": {
+      "type": "integer",
+      "required": true
+    },
+    "presenters": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },
+    "duration": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "default": 1
+    },
+    "participants": {
+      "type": "string",
+      "required": true,
+      "default": "10",
+      "maxLength": 6
+    },
+    "extraPlayerPrice": {
+      "type": "integer",
+      "default": 250
+    }
+  }
+}
