@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "days": {
+    "day": {
       "type": "enumeration",
       "enum": [
         "Понеділок",
@@ -22,13 +22,16 @@
         "П'ятниця",
         "Субота",
         "Неділя"
-      ]
+      ],
+      "required": true
     },
-    "hours_start": {
-      "type": "time"
+    "time_start": {
+      "type": "time",
+      "required": true
     },
-    "hours_finish": {
-      "type": "time"
+    "time_end": {
+      "type": "time",
+      "required": true
     }
   }
 }

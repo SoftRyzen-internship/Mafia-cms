@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flip_cards",
+  "info": {
+    "singularName": "flip-card",
+    "pluralName": "flip-cards",
+    "displayName": "Flip_card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "first_place": {
+      "type": "boolean"
+    },
+    "second_place": {
+      "type": "boolean"
+    },
+    "third_place": {
+      "type": "boolean"
+    },
+    "no_place": {
+      "type": "boolean"
+    },
+    "cups": {
+      "type": "json"
+    }
+  }
+}
