@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_single_descriptions",
+  "info": {
+    "displayName": "Description"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.achievements"
+    }
+  }
+}
