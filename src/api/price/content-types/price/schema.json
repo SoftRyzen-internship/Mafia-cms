@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "isVisible": {
-      "type": "boolean",
-      "default": true
-    },
     "rateType": {
       "type": "string",
       "required": true,
