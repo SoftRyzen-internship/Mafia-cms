@@ -15,7 +15,7 @@
     "img": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -24,25 +24,17 @@
       ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
-    },
-    "first_place": {
-      "type": "boolean"
-    },
-    "second_place": {
-      "type": "boolean"
-    },
-    "third_place": {
-      "type": "boolean"
-    },
-    "no_place": {
-      "type": "boolean"
+      "type": "text",
+      "required": true
     },
     "cups": {
-      "type": "json"
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.sup"
     }
   }
 }

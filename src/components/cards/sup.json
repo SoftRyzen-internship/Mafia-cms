@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_text_sups",
+  "info": {
+    "displayName": "Сup",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "competition_name": {
+      "type": "string"
+    },
+    "place_number": {
+      "type": "enumeration",
+      "enum": [
+        "перше",
+        "друге",
+        "третє",
+        "зірка"
+      ]
+    }
+  }
+}
