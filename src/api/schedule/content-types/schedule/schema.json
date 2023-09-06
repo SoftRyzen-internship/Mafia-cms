@@ -12,19 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "day": {
-      "type": "enumeration",
-      "enum": [
-        "Понеділок",
-        "Вівторок",
-        "Середа",
-        "Четвер",
-        "П'ятниця",
-        "Субота",
-        "Неділя"
-      ],
-      "required": true
-    },
     "time_start": {
       "type": "time",
       "required": true
@@ -32,6 +19,11 @@
     "time_end": {
       "type": "time",
       "required": true
+    },
+    "day": {
+      "type": "string",
+      "required": true,
+      "maxLength": 10
     }
   }
 }
