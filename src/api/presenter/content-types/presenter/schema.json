@@ -28,6 +28,11 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
