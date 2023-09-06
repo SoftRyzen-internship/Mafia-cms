@@ -38,15 +38,19 @@
       "min": 1,
       "default": 1
     },
-    "participants": {
-      "type": "string",
-      "required": true,
-      "default": "10",
-      "maxLength": 6
-    },
     "extraPlayerPrice": {
       "type": "integer",
       "default": 250
+    },
+    "playersInTeam": {
+      "type": "integer",
+      "default": 0,
+      "required": false,
+      "min": 2
+    },
+    "maxPlayersInTeam": {
+      "type": "integer",
+      "min": 2
     }
   }
 }
