@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cards_schedules",
+  "info": {
+    "displayName": " Schedule"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "string",
+      "maxLength": 10,
+      "required": true
+    },
+    "time_start": {
+      "type": "time",
+      "required": true
+    },
+    "time_end": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

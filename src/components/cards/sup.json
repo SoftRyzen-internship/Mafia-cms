@@ -8,15 +8,16 @@
   "options": {},
   "attributes": {
     "competition_name": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 35
     },
     "place_number": {
       "type": "enumeration",
       "enum": [
-        "перше",
-        "друге",
-        "третє",
-        "зірка"
+        "first",
+        "second",
+        "third",
+        "star"
       ]
     }
   }
