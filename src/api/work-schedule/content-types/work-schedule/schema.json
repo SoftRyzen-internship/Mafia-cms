@@ -4,7 +4,8 @@
   "info": {
     "singularName": "work-schedule",
     "pluralName": "work-schedules",
-    "displayName": "Work_schedule"
+    "displayName": "Work_schedule",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,7 @@
       "component": "cards.schedule",
       "required": true,
       "max": 3,
-      "min": 3
+      "min": 1
     }
   }
 }
