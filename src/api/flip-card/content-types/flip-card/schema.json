@@ -36,7 +36,7 @@
     },
     "description": {
       "type": "text",
-      "maxLength": 210
+      "maxLength": 250
     }
   }
 }
