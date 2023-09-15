@@ -11,11 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.13.2",
-    "@strapi/plugin-i18n": "4.13.2",
-    "@strapi/plugin-users-permissions": "4.13.2",
-    "@strapi/provider-upload-cloudinary": "^4.13.2",
-    "@strapi/strapi": "4.13.2",
+    "@strapi/plugin-graphql": "^4.13.6",
+    "@strapi/plugin-i18n": "4.13.6",
+    "@strapi/plugin-users-permissions": "4.13.6",
+    "@strapi/provider-upload-cloudinary": "^4.13.6",
+    "@strapi/strapi": "4.13.6",
     "pg": "8.8.0",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },
