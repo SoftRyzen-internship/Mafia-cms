@@ -1,4 +1,15 @@
 module.exports = ({ env }) => ({
+  "vercel-deploy": {
+    enabled: true,
+    config: {
+      deployHook:
+        env("VERCEL_DEPLOY_HOOK"),
+      apiToken: env("VERCEL_API_TOKEN"),
+      appFilter: "mafia-frontend",
+      teamFilter: env("VERCEL_TEAM_FILTER"),
+      roles: ["strapi-super-admin","strapi-author"],
+    },
+  },
   upload: {
     config: {
       provider: "cloudinary",
@@ -20,4 +31,5 @@ module.exports = ({ env }) => ({
       defaultLimit: 100,
     },
   },
+
 });
